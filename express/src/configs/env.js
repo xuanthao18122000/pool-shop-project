@@ -19,16 +19,16 @@ const env = {
     testDBType: getString("TEST_DB_TYPE", "sqlite"),
     FAKE_USED_POINT: getBoolean("FAKE_USED_POINT"),
   },
-  logger: {
-    types: JSON.parse(process.env.LOGGER_NOTIFY_TYPES),
-    settings: {
-      discord: {
-        token: process.env.LOGGER_DISCORD_TOKEN,
-        channelId: process.env.LOGGER_DISCORD_ID_CHANNEL,
-        serverId: process.env.LOGGER_DISCORD_ID_SERVER,
-      },
-    },
-  },
+  // logger: {
+  //   types: JSON.parse(process.env.LOGGER_NOTIFY_TYPES),
+  //   settings: {
+  //     discord: {
+  //       token: process.env.LOGGER_DISCORD_TOKEN,
+  //       channelId: process.env.LOGGER_DISCORD_ID_CHANNEL,
+  //       serverId: process.env.LOGGER_DISCORD_ID_SERVER,
+  //     },
+  //   },
+  // },
   salt_rounds: {
     BCRYPT_SALT_ROUNDS: getInt("BCRYPT_SALT_ROUNDS", 10),
   },

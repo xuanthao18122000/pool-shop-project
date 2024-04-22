@@ -9,11 +9,16 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "bootstrap": "^5.2.0",
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
+    "vue-loader": "^15.10.0",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "sass": "^1.75.0",
+    "sass-loader": "^10"
+  }
 }
